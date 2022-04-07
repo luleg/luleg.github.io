@@ -1,0 +1,99 @@
+*
+{
+  font-family: Trebuchet, sans-serif;
+  text-align: justify;
+  color:rgb(33,24,63);
+}
+body
+{
+  margin: 0;
+}
+aside
+{
+  width:25%;
+  min-width:310px;
+  text-align: center;
+  font-size: small;
+}
+a[href]
+{
+  font-style:italic;
+  text-decoration: none;
+}
+em
+{
+  font-style: normal;
+  background-color:rgb(240,238,249);
+  background-color:rgba(210,203,235,0.5);
+}
+figure
+{
+  width:230px;
+}
+figcaption
+{
+  font-size:small;
+  text-align:center;
+  font-style: italic;
+  color:rgb(169,155,217);
+}
+#email
+{
+  font-family: "Courier New", sans-serif;
+}
+.date
+{
+  color:rgb(82,61,156);
+}
+header
+{
+  display: flex;
+  flex-direction:row;
+  padding-top: 3em;
+  padding-bottom: 3.5em;
+  background-color:rgb(233,228,245);
+}
+header ul
+{
+  list-style-type: none;
+  width:65%;
+  display: flex;
+  flex-direction:row;
+  justify-content: space-around;
+  margin: 0;
+}
+footer
+{
+  padding-top: 3.5em;
+  padding-bottom: 3em;
+  /* background-color: rgb(245,244,251); */
+}
+footer ul
+{
+  list-style-type: none;
+  display: flex;
+  flex-direction:row;
+  justify-content: space-around;
+}
+.main
+{
+  display:flex;
+  flex-direction:row;
+  min-width:800px;
+  width:80%;
+}
+.main section li
+{
+  padding-bottom: 2em;
+}
+#li_main
+{
+  width:25%;
+  min-width:310px;
+  font-weight: bold;
+  text-align: center;
+}
+.span_it
+{
+  font-style: italic;
+}
