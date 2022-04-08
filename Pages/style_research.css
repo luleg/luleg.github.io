@@ -1,0 +1,45 @@
+*
+{
+  font-family: Trebuchet, sans-serif;
+  text-align: justify;
+  color:rgb(33,24,63);
+}
+body
+{
+  margin: 0;
+}
+header a[href]
+{
+  font-style: normal;
+  font-size: normal;
+  text-decoration: none;
+}
+em
+{
+  font-style: normal;
+  background-color:rgb(240,238,249);
+  background-color:rgba(210,203,235,0.5);
+}
+header
+{
+  display: flex;
+  flex-direction:row;
+  padding-top: 3em;
+  padding-bottom: 3.5em;
+  background-color:rgb(233,228,245);
+}
+header ul
+{
+  list-style-type: none;
+  width:65%;
+  display: flex;
+  flex-direction:row;
+  justify-content: space-around;
+  margin: 0;
+}
+#li_main
+{
+  min-width:310px;
+  font-weight: bold;
+  text-align: center;
+}

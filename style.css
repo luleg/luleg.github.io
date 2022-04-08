@@ -8,9 +8,13 @@ body
 {
   margin: 0;
 }
+header a[href]
+{
+  font-style: normal;
+  font-size: normal;
+}
 aside
 {
-  width:25%;
   min-width:310px;
   text-align: center;
   font-size: small;
@@ -66,7 +70,8 @@ footer
 {
   padding-top: 3.5em;
   padding-bottom: 3em;
-  /* background-color: rgb(245,244,251); */
+  margin-right: 3em;
+
 }
 footer ul
 {
@@ -86,9 +91,12 @@ footer ul
 {
   padding-bottom: 2em;
 }
+section
+{
+  padding-top:0.2em;
+}
 #li_main
 {
-  width:25%;
   min-width:310px;
   font-weight: bold;
   text-align: center;
