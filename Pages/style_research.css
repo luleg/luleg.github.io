@@ -43,3 +43,50 @@ header ul
   font-weight: bold;
   text-align: center;
 }
+#main
+{
+  margin-left: 2em;
+  min-width:500px;
+  width:80%;
+}
+#main .legend
+{
+  display: flex;
+  flex-direction:row;
+  justify-content: space-between;
+  list-style: none;
+}
+#main li::before
+{
+  content: "\25AA";
+  font-size: 2.5em;
+  margin-right: 0.1em;
+}
+#main li.journal::before
+{
+  color:rgb(231,12,88);
+  vertical-align:middle;
+}
+#main li.proc::before
+{
+  color:rgb(52,99,169);
+  vertical-align:middle;
+}
+#main li.these::before
+{
+  color:rgb(255,201,14);
+  vertical-align:middle;
+}
+#main li.other::before
+{
+  color:rgb(128,128,128);
+  vertical-align:middle;
+}
+#main .papers
+{
+  list-style: none;
+}
+.title
+{
+  font-style: italic;
+}

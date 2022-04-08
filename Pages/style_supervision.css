@@ -50,6 +50,8 @@ header ul
 #main
 {
   margin-left: 2em;
+  min-width:500px;
+  width:80%;
 }
 #main li
 {
@@ -58,9 +60,4 @@ header ul
 .ital
 {
   font-style: italic;
-}
-#main
-{
-  min-width:500px;
-  width:80%;
 }
