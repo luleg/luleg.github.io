@@ -43,3 +43,39 @@ header ul
   font-weight: bold;
   text-align: center;
 }
+#main
+{
+  margin-left: 2em;
+  min-width:500px;
+  width:90%;
+}
+#main li a
+{
+  padding:3px;
+  margin-right: 1em;
+  margin-left: 1em;
+  text-decoration: none;
+  border:1px rgb(100,100,100) solid;
+  border-radius: 4px;
+}
+#main .title
+{
+  background-color:rgb(240,238,249);
+  background-color:rgba(210,203,235,0.5);
+}
+#main .school
+{
+  font-weight: bold;
+}
+#main .cmt
+{
+  font-style: italic;
+}
+#main li .course
+{
+  font-style: italic;
+}
+.date
+{
+  color:rgb(82,61,156);
+}
