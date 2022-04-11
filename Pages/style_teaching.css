@@ -49,7 +49,7 @@ header ul
   min-width:500px;
   width:90%;
 }
-#main li a
+#main li .nwk
 {
   padding:3px;
   margin-right: 1em;
@@ -67,7 +67,7 @@ header ul
 {
   font-weight: bold;
 }
-#main .cmt
+#main .italic
 {
   font-style: italic;
 }
@@ -78,4 +78,16 @@ header ul
 .date
 {
   color:rgb(82,61,156);
+}
+#main li li
+{
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+}
+#main .emb
+{
+  padding:3px;
+  text-decoration: none;
+  border:1px rgb(100,100,100) solid;
+  border-radius: 4px;
 }
