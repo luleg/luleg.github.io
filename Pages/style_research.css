@@ -81,6 +81,11 @@ header ul
   color:rgb(255,201,14);
   vertical-align:middle;
 }
+#main li.software::before
+{
+  color:rgb(61,194,50);
+  vertical-align:middle;
+}
 #main li.other::before
 {
   color:rgb(128,128,128);
