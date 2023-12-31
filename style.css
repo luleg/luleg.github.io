@@ -111,7 +111,11 @@ footer ul
 }
 section
 {
-  margin-top: 1em;
+  margin-top: 0.5em;
+}
+aside
+{
+  margin-top: 1.5em;
 }
 .trait
 {
